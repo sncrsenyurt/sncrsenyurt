@@ -11,9 +11,9 @@
 ---
 
 ## 🚀 About Me
-- 🔧 **Engineering QA Specialist** at Tesla, focusing on **Infotainment Systems QA and Automation Testing**.
-- 🏆 Active contributor in **Blockchain Nodes**, **Testnet Projects**, and decentralized ecosystems.
-- 💻 **Linux Lover** who thrives on automation, testing, and tech innovations.
+- 🔧 Engineering QA Specialist at Tesla, focusing on Infotainment Systems QA and Automation Testing.
+- 🏆 Active contributor in Blockchain Nodes, Testnet Projects, and decentralized ecosystems.
+- 💻 Linux Lover who thrives on automation, testing, and tech innovations.
 - 🚀 Passionate about improving systems through precise QA processes and data analysis.
 
 ---
