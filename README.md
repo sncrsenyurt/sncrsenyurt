@@ -70,7 +70,6 @@
 ## 📊 GitHub Stats
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sncrsenyurt&show_icons=true&theme=radical" alt="sncrsenyurt stats" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=sncrsenyurt&theme=radical" alt="sncrsenyurt streak" />
 </div>
 
 <p align="center">
