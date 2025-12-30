@@ -60,29 +60,6 @@
 
 ---
 
-## 🏆 Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sncrsenyurt&theme=radical&no-frame=true&margin-w=15&row=2&column=3" alt="sncrsenyurt trophies" />
-</p>
-
----
-
-## 📊 GitHub Stats
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sncrsenyurt&show_icons=true&theme=radical" alt="sncrsenyurt stats" />
-</div>
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sncrsenyurt&layout=compact&theme=radical" alt="sncrsenyurt top langs" />
-</p>
-
----
-
-## 🚀 Activity Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sncrsenyurt&theme=dracula" alt="sncrsenyurt activity graph" />
-</p>
-
 ---
 
 <p align="center">
