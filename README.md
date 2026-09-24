@@ -1,7 +1,7 @@
-<!-- Dark navy + burnt-orange · terminal card + LinkedIn-based copy -->
+<!-- Dark navy + burnt-orange · neofetch card -->
 
 <p align="center">
-  <img src="terminal-card.svg" alt="sncrsenyurt@github" width="900" />
+  <img src="terminal-card.svg" alt="sncrsenyurt@github neofetch" width="900" />
 </p>
 
 <p>
@@ -9,17 +9,7 @@
 </p>
 
 <p>
-  <strong>Software QA @ Tesla</strong> — in-vehicle UI &amp; Robotaxi
-</p>
-
-<ul>
-  <li>3 internal tools used by 4 teams (cut test time 15–40%)</li>
-  <li>Automation nodes + Ruby/Tidal suites · Jenkins/Docker CI</li>
-  <li>Turkish localization for in-vehicle UI</li>
-</ul>
-
-<p>
-  Prev: Zoox · Autoliv
+  <strong>Software QA Engineer @ Tesla</strong> | Vehicle Software
 </p>
 
 <p>
