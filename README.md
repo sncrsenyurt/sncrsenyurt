@@ -1,13 +1,15 @@
-<!-- Dark navy + burnt-orange · terminal-inspired -->
+<div align="justify">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./terminal-boot.gif">
+    <source media="(prefers-color-scheme: light)" srcset="./terminal-boot.gif">
+    <img alt="SNCR OS terminal boot" src="terminal-boot.gif" width="750">
+</picture>
+
+<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">github-readme-terminal</a> · gifos</i></sub>
+</div>
 
 <p>
-  <img src="header-typing.svg" alt="still typing..." height="28" />
-</p>
-
-<p>
-  Software QA Engineer at <strong>Tesla</strong> — in-vehicle software, Robotaxi, and automation.
-  I build internal tools that cut testing time, own CI/CD on Jenkins + Docker, and ship working
-  systems over slide decks. Previously Zoox · Autoliv.
+  <strong>Software QA Engineer @ Tesla</strong> | Vehicle Software
 </p>
 
 <p>
