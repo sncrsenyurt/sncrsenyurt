@@ -1,74 +1,58 @@
-<!-- Typing SVG (Dynamic typing effect) -->
-<h1 align="center" style="margin-top: 0px;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=FFA500&center=true&vCenter=true&width=800&lines=Hello%2C+I'm+Irfan!;Engineering+QA+Specialist+at+Tesla!;Tech+Enthusiast+%7C+Blockchain+Explorer;On+my+journey+to+Become+a+SWE!" alt="Typing SVG" />
-</h1>
+<table>
+  <tr>
+    <td width="280" valign="top">
+      <img src="readme-picture.gif" alt="Irfan Sencer Senyurt" width="250" />
+    </td>
+    <td valign="top">
+      <h1>Irfan Sencer Senyurt</h1>
+      <h3>Software QA Engineer at Tesla</h3>
+      <p>
+        I work on software quality: designing tests, automating the checks that should not be manual, and writing defects clearly enough that they get fixed.
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/sncrsenyurt"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+        <a href="https://twitter.com/sencersenyurt"><img src="https://img.shields.io/badge/X-111111?style=flat&logo=x&logoColor=white" alt="X" /></a>
+        <a href="mailto:sencersenyurt@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
+        <a href="https://irfansenyurt.com"><img src="https://img.shields.io/badge/Website-irfansenyurt.com-444444?style=flat&logo=googlechrome&logoColor=white" alt="Website" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-<!-- Banner GIF (Resized) -->
-<p align="center">
-  <img src="https://github.com/sncrsenyurt/sncrsenyurt/blob/main/readme-picture.gif" alt="Animated Face" width="300" style="border-radius: 20px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);" />
-</p>
+## About
 
----
+Software QA Engineer at Tesla. I focus on whether a build does what it claims, on the environments it will actually run in.
 
-## About Me
-- Engineering QA Specialist at Tesla
-- Active contributor in Blockchain Nodes, Testnet Projects, and decentralized ecosystems.
-- Linux Lover who thrives on automation, testing, and tech innovations.
-- Passionate about improving systems through precise QA processes and data analysis.
+- Test design, regression, and release validation
+- Automation with Python and pytest
+- Linux, Docker, and virtual machines for repeatable setups
+- Git, GitHub, and Jira for reviews and defect tracking
+- SQL and notebooks when the question is in the data
 
----
+## Toolbox
 
-## 🌐 Connect with Me
-<p align="center">
-  <a href="https://linkedin.com/in/sncrsenyurt" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/sencersenyurt" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" />
-  </a>
-  <a href="mailto:sencersenyurt@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://irfansenyurt.com" target="_blank">
-    <img src="https://img.shields.io/badge/Website-irfansenyurt.com-FF5733?style=for-the-badge&logo=Google-Chrome&logoColor=white" />
-  </a>
-</p>
+**Quality**
 
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" alt="pytest" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" />
 
----
+**Systems**
 
-## 💻 Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=plastic&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=plastic&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Blockchain-121D33?style=plastic&logo=blockchain-dot-com&logoColor=white" />
-  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=plastic&logo=virtualbox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Testnet-0E76A8?style=plastic&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=plastic&logo=ethereum&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-100000?style=plastic&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=plastic&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=plastic&logo=jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=plastic&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=plastic&logo=bitcoin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solana-9945FF?style=plastic&logo=solana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Polygon-8247E5?style=plastic&logo=polygon&logoColor=white" />
-</p>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat&logo=virtualbox&logoColor=white" alt="VirtualBox" />
 
----
+**Collaboration**
 
----
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" alt="Jira" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sncrsenyurt&label=Profile%20Views&color=brightgreen&style=plastic" alt="Profile Views" />
-</p>
+## Interests
 
----
-
-<div align="center" style="margin-top: 30px;">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="200" alt="thank you gif"/>
-  <h3>🚀 Thank you for visiting! Let's create amazing projects together! 🤝</h3>
-</div>
+<img src="https://img.shields.io/badge/Bitcoin-F7931A?style=flat&logo=bitcoin&logoColor=white" alt="Bitcoin" />
+<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" alt="Ethereum" />
