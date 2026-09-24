@@ -3,9 +3,10 @@
 
 The boot sequence, login, and fetch-panel copy are preserved from
 assets/terminal-boot-mona.gif (the x0rzavi/gifos animation already on main).
-Only the left-hand fetch art is replaced: the white background of
-assets/tesla-hedgehog.png is knocked out and the sprite is composited onto
-the navy terminal (#0d1117), aligned with the stats panel.
+The chosen mascot is the DANGER hedgehog (sunglasses, neon jacket, OK sign)
+in assets/tesla-hedgehog-danger.png. Its light backdrop is knocked out and
+the sprite is composited onto the navy terminal (#0d1117), aligned with the
+stats panel. assets/tesla-hedgehog.png is the unused waving alternate.
 
 Requires Pillow, NumPy, and gifsicle.
 """
@@ -22,7 +23,7 @@ from PIL import Image, ImageFilter
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE_GIF = ROOT / "assets" / "terminal-boot-mona.gif"
-HEDGEHOG_PNG = ROOT / "assets" / "tesla-hedgehog.png"
+HEDGEHOG_PNG = ROOT / "assets" / "tesla-hedgehog-danger.png"
 OUT_GIF = ROOT / "terminal-boot.gif"
 
 NAVY = (13, 17, 23)
@@ -32,7 +33,7 @@ SLOT_TOP_OFFSET = 64
 SLOT_HEIGHT = 221
 MONA_X0, MONA_X1 = 55, 245
 SLOT_CENTER_X = (MONA_X0 + MONA_X1) // 2
-SPRITE_COLORS = 48
+SPRITE_COLORS = 96
 
 
 def _flood_background(near_white: np.ndarray) -> np.ndarray:
@@ -306,7 +307,7 @@ def main() -> None:
         render_preview(args.hedgehog, args.preview)
         return
     if args.gif is None:
-        raise SystemExit("Pass --preview or --gif. terminal-boot.gif is left unchanged until a mascot is chosen.")
+        raise SystemExit("Pass --preview or --gif. Example: --gif terminal-boot.gif")
     sprite = fit_sprite(knockout_hedgehog(args.hedgehog), SPRITE_COLORS)
     frames, durations = load_base_frames(BASE_GIF)
     colors = collect_colors(sprite, frames)
