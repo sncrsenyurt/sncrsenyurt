@@ -1,12 +1,12 @@
-<!-- Dark navy + burnt-orange · neofetch card -->
+<div align="justify">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./terminal-boot.gif">
+    <source media="(prefers-color-scheme: light)" srcset="./terminal-boot.gif">
+    <img alt="SNCR OS terminal boot" src="terminal-boot.gif" width="750">
+</picture>
 
-<p align="center">
-  <img src="terminal-card.svg" alt="sncrsenyurt@github neofetch" width="900" />
-</p>
-
-<p>
-  <img src="header-typing.svg" alt="still typing..." height="28" />
-</p>
+<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">github-readme-terminal</a> · gifos</i></sub>
+</div>
 
 <p>
   <strong>Software QA Engineer @ Tesla</strong> | Vehicle Software
