@@ -4,8 +4,6 @@
     <source media="(prefers-color-scheme: light)" srcset="./terminal-boot.gif">
     <img alt="SNCR OS terminal boot" src="terminal-boot.gif" width="750">
 </picture>
-
-<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">github-readme-terminal</a> · gifos</i></sub>
 </div>
 
 <p>
