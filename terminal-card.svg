@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="sncrsenyurt@github neofetch card">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .label { fill: #E4572E; font-size: 14px; font-weight: 600; }
+      .value { fill: #E6EDF3; font-size: 14px; font-weight: 400; }
+      .title { fill: #8B949E; font-size: 12px; font-weight: 500; }
+      .prompt { fill: #E4572E; font-size: 13px; }
+      .cmd { fill: #E6EDF3; font-size: 13px; }
+    ]]></style>
+  </defs>
+
+  <!-- Window chrome -->
+  <rect x="0.5" y="0.5" width="899" height="319" rx="10" ry="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="0.5" y="0.5" width="899" height="36" rx="10" ry="10" fill="#161b22" stroke="none"/>
+  <rect x="0.5" y="18" width="899" height="18.5" fill="#161b22"/>
+  <line x1="0.5" y1="36.5" x2="899.5" y2="36.5" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Traffic lights (subtle) -->
+  <circle cx="22" cy="18.5" r="5.5" fill="#3d1f1f" stroke="#8B3A3A" stroke-width="1"/>
+  <circle cx="40" cy="18.5" r="5.5" fill="#3d3420" stroke="#8B7A3A" stroke-width="1"/>
+  <circle cx="58" cy="18.5" r="5.5" fill="#1f3d2a" stroke="#3A8B5A" stroke-width="1"/>
+
+  <text x="450" y="23" text-anchor="middle" class="mono title">sncrsenyurt@github</text>
+
+  <!-- Left: geometric block avatar -->
+  <g transform="translate(48, 68)" fill="#E4572E">
+    <!-- Outer frame -->
+    <rect x="0" y="0" width="168" height="168" rx="4" fill="none" stroke="#E4572E" stroke-width="2" opacity="0.85"/>
+    <!-- Abstract terminal / IS monogram blocks -->
+    <rect x="18" y="18" width="22" height="22" rx="2"/>
+    <rect x="48" y="18" width="22" height="22" rx="2" opacity="0.55"/>
+    <rect x="78" y="18" width="22" height="22" rx="2"/>
+    <rect x="108" y="18" width="22" height="22" rx="2" opacity="0.35"/>
+
+    <rect x="18" y="48" width="22" height="22" rx="2" opacity="0.55"/>
+    <rect x="48" y="48" width="52" height="22" rx="2"/>
+    <rect x="108" y="48" width="22" height="22" rx="2" opacity="0.7"/>
+
+    <rect x="18" y="78" width="22" height="22" rx="2"/>
+    <rect x="48" y="78" width="22" height="22" rx="2" opacity="0.35"/>
+    <rect x="78" y="78" width="52" height="22" rx="2"/>
+
+    <rect x="18" y="108" width="52" height="22" rx="2" opacity="0.7"/>
+    <rect x="78" y="108" width="22" height="22" rx="2"/>
+    <rect x="108" y="108" width="22" height="22" rx="2" opacity="0.55"/>
+
+    <!-- Cursor block at bottom of avatar -->
+    <rect x="18" y="140" width="14" height="14" rx="1">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="40" y="144" width="90" height="6" rx="1" opacity="0.25"/>
+  </g>
+
+  <!-- Divider -->
+  <line x1="248" y1="58" x2="248" y2="250" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Right: key/value rows -->
+  <g class="mono" transform="translate(280, 78)">
+    <!-- Name -->
+    <text x="0" y="0" class="label">Name</text>
+    <text x="100" y="0" class="value" fill="#8B949E">:</text>
+    <text x="118" y="0" class="value">Irfan Sencer Senyurt</text>
+
+    <!-- Role -->
+    <text x="0" y="28" class="label">Role</text>
+    <text x="100" y="28" class="value" fill="#8B949E">:</text>
+    <text x="118" y="28" class="value">Software QA Engineer</text>
+
+    <!-- Company -->
+    <text x="0" y="56" class="label">Company</text>
+    <text x="100" y="56" class="value" fill="#8B949E">:</text>
+    <text x="118" y="56" class="value">Tesla · in-vehicle / Robotaxi</text>
+
+    <!-- Focus -->
+    <text x="0" y="84" class="label">Focus</text>
+    <text x="100" y="84" class="value" fill="#8B949E">:</text>
+    <text x="118" y="84" class="value">In-vehicle UI · Robotaxi · internal tools</text>
+
+    <!-- Prev -->
+    <text x="0" y="112" class="label">Prev</text>
+    <text x="100" y="112" class="value" fill="#8B949E">:</text>
+    <text x="118" y="112" class="value">Zoox · Autoliv</text>
+
+    <!-- Loc -->
+    <text x="0" y="140" class="label">Loc</text>
+    <text x="100" y="140" class="value" fill="#8B949E">:</text>
+    <text x="118" y="140" class="value">San Francisco, CA</text>
+
+    <!-- Shell -->
+    <text x="0" y="168" class="label">Shell</text>
+    <text x="100" y="168" class="value" fill="#8B949E">:</text>
+    <text x="118" y="168" class="value">bash</text>
+
+    <!-- Site -->
+    <text x="0" y="196" class="label">Site</text>
+    <text x="100" y="196" class="value" fill="#8B949E">:</text>
+    <text x="118" y="196" class="value">irfansenyurt.com</text>
+  </g>
+
+  <!-- Bottom prompt line -->
+  <g class="mono" transform="translate(48, 292)">
+    <text x="0" y="0" class="prompt">$</text>
+    <text x="16" y="0" class="cmd">still typing...</text>
+    <rect x="148" y="-11" width="8" height="14" fill="#E4572E">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

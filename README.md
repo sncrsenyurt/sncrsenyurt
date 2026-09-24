@@ -1,13 +1,25 @@
-<!-- Dark navy + burnt-orange · terminal-inspired -->
+<!-- Dark navy + burnt-orange · terminal card + LinkedIn-based copy -->
+
+<p align="center">
+  <img src="terminal-card.svg" alt="sncrsenyurt@github" width="900" />
+</p>
 
 <p>
   <img src="header-typing.svg" alt="still typing..." height="28" />
 </p>
 
 <p>
-  Software QA Engineer at <strong>Tesla</strong> — in-vehicle software, Robotaxi, and automation.
-  I build internal tools that cut testing time, own CI/CD on Jenkins + Docker, and ship working
-  systems over slide decks. Previously Zoox · Autoliv.
+  <strong>Software QA @ Tesla</strong> — in-vehicle UI &amp; Robotaxi
+</p>
+
+<ul>
+  <li>3 internal tools used by 4 teams (cut test time 15–40%)</li>
+  <li>Automation nodes + Ruby/Tidal suites · Jenkins/Docker CI</li>
+  <li>Turkish localization for in-vehicle UI</li>
+</ul>
+
+<p>
+  Prev: Zoox · Autoliv
 </p>
 
 <p>
