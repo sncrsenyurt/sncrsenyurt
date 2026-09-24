@@ -12,6 +12,7 @@ Requires Pillow, NumPy, and gifsicle.
 
 from __future__ import annotations
 
+import argparse
 import subprocess
 from collections import deque
 from pathlib import Path
@@ -61,14 +62,29 @@ def _flood_background(near_white: np.ndarray) -> np.ndarray:
 
 
 def knockout_hedgehog(path: Path) -> Image.Image:
-    """Remove the white backdrop, keeping the hedgehog's white fur."""
+    """Remove a white or light-gray backdrop.
+
+    White fur stays when it is not connected to the edge. A light-gray studio
+    backdrop (the danger hedgehog) is removed everywhere it is pale and gray,
+    including pockets between the quills.
+    """
     rgb = np.array(Image.open(path).convert("RGB"))
     height, width = rgb.shape[:2]
     pixels = rgb.astype(np.float32)
     distance = np.sqrt(((pixels - 255.0) ** 2).sum(axis=2))
     chroma = pixels.max(axis=2) - pixels.min(axis=2)
-    near_white = (distance <= 16.0) & (chroma <= 14.0)
+    luma = pixels.mean(axis=2)
+    border = np.concatenate(
+        [luma[0], luma[-1], luma[:, 0], luma[:, -1]]
+    )
+    border_luma = float(np.median(border))
+
+    near_white = (distance <= 18.0) & (chroma <= 16.0)
     background = _flood_background(near_white)
+    if border_luma < 250.0:
+        gray_backdrop = (chroma <= 22.0) & (luma >= 200.0)
+        background |= gray_backdrop
+        background |= _flood_background((chroma <= 28.0) & (luma >= 180.0))
 
     alpha = np.full((height, width), 255, np.uint8)
     alpha[background] = 0
@@ -259,16 +275,47 @@ def write_gif(
     )
 
 
+def load_fetch_frame(path: Path) -> Image.Image:
+    """Last frame of the boot GIF, which holds the finished fetch panel."""
+    gif = Image.open(path)
+    gif.seek(gif.n_frames - 1)
+    return gif.convert("RGB")
+
+
+def render_preview(hedgehog: Path, dest: Path) -> None:
+    """Composite one hedgehog onto the fetch panel without rewriting the GIF."""
+    sprite = knockout_hedgehog(hedgehog)
+    target_h = SLOT_HEIGHT - 6
+    target_w = max(1, round(sprite.width * (target_h / sprite.height)))
+    fitted = sprite.resize((target_w, target_h), Image.Resampling.LANCZOS)
+    alpha = fitted.getchannel("A").point(lambda value: 255 if value >= 128 else 0)
+    fitted.putalpha(alpha)
+    panel = composite_frame(load_fetch_frame(BASE_GIF), fitted)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    panel.save(dest)
+    print(f"INFO: Wrote preview {dest} sprite={fitted.size}")
+
+
 def main() -> None:
-    sprite = fit_sprite(knockout_hedgehog(HEDGEHOG_PNG), SPRITE_COLORS)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--hedgehog", type=Path, default=HEDGEHOG_PNG)
+    parser.add_argument("--preview", type=Path, help="Write a fetch-panel PNG and exit")
+    parser.add_argument("--gif", type=Path, help="Write an animated GIF to this path")
+    args = parser.parse_args()
+    if args.preview:
+        render_preview(args.hedgehog, args.preview)
+        return
+    if args.gif is None:
+        raise SystemExit("Pass --preview or --gif. terminal-boot.gif is left unchanged until a mascot is chosen.")
+    sprite = fit_sprite(knockout_hedgehog(args.hedgehog), SPRITE_COLORS)
     frames, durations = load_base_frames(BASE_GIF)
     colors = collect_colors(sprite, frames)
     composited = [composite_frame(frame, sprite) for frame in frames]
-    write_gif(composited, durations, colors, OUT_GIF)
-    with Image.open(OUT_GIF) as gif:
+    write_gif(composited, durations, colors, args.gif)
+    with Image.open(args.gif) as gif:
         print(
-            f"INFO: Wrote {OUT_GIF} size={gif.size} frames={gif.n_frames} "
-            f"bytes={OUT_GIF.stat().st_size}"
+            f"INFO: Wrote {args.gif} size={gif.size} frames={gif.n_frames} "
+            f"bytes={args.gif.stat().st_size}"
         )
 
 
