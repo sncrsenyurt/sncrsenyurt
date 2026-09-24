@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="Software QA Engineer at Tesla">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#94a3b8" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="620" rx="28" fill="url(#bg)"/>
+  <rect width="1100" height="620" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1098" height="618" rx="28" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <rect x="36" y="36" width="120" height="6" rx="3" fill="url(#bar)"/>
+  <text x="36" y="78" fill="#64748b" font-family="Consolas, monospace" font-size="16" letter-spacing="3">SNCR  /  PROFILE</text>
+  <text x="1064" y="78" fill="#64748b" font-family="Consolas, monospace" font-size="16" letter-spacing="3" text-anchor="end">TESLA  ·  SAN FRANCISCO</text>
+  <text x="36" y="150" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700">Software QA Engineer</text>
+  <text x="36" y="196" fill="#94a3b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">I find the break before a build reaches anyone else.</text>
+  <line x1="36" y1="230" x2="1064" y2="230" stroke="#1e293b" stroke-width="2"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="36" y="262" width="324" height="168" rx="16" fill="#0c1424" stroke="#1e293b"/>
+    <text x="60" y="304" fill="#38bdf8" font-family="Consolas, monospace" font-size="14" letter-spacing="2">01</text>
+    <text x="60" y="342" fill="#f8fafc" font-size="24" font-weight="700">Test design</text>
+    <text x="60" y="378" fill="#94a3b8" font-size="16">Cases aimed at real failure,</text>
+    <text x="60" y="402" fill="#94a3b8" font-size="16">not a checklist for show.</text>
+    <rect x="388" y="262" width="324" height="168" rx="16" fill="#0c1424" stroke="#1e293b"/>
+    <text x="412" y="304" fill="#38bdf8" font-family="Consolas, monospace" font-size="14" letter-spacing="2">02</text>
+    <text x="412" y="342" fill="#f8fafc" font-size="24" font-weight="700">Automation</text>
+    <text x="412" y="378" fill="#94a3b8" font-size="16">Python and pytest for checks</text>
+    <text x="412" y="402" fill="#94a3b8" font-size="16">that must run every time.</text>
+    <rect x="740" y="262" width="324" height="168" rx="16" fill="#0c1424" stroke="#1e293b"/>
+    <text x="764" y="304" fill="#38bdf8" font-family="Consolas, monospace" font-size="14" letter-spacing="2">03</text>
+    <text x="764" y="342" fill="#f8fafc" font-size="24" font-weight="700">Environments</text>
+    <text x="764" y="378" fill="#94a3b8" font-size="16">Linux, Docker, virtual machines.</text>
+    <text x="764" y="402" fill="#94a3b8" font-size="16">A result you can repeat.</text>
+  </g>
+  <text x="36" y="484" fill="#64748b" font-family="Consolas, monospace" font-size="14" letter-spacing="3">STACK</text>
+  <g font-family="Consolas, monospace" font-size="15" fill="#e2e8f0">
+    <rect x="36" y="500" width="108" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="90" y="524" text-anchor="middle">Python</text>
+    <rect x="156" y="500" width="78" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="195" y="524" text-anchor="middle">C++</text>
+    <rect x="246" y="500" width="96" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="294" y="524" text-anchor="middle">Linux</text>
+    <rect x="354" y="500" width="108" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="408" y="524" text-anchor="middle">Docker</text>
+    <rect x="474" y="500" width="102" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="525" y="524" text-anchor="middle">pytest</text>
+    <rect x="588" y="500" width="116" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="646" y="524" text-anchor="middle">Jupyter</text>
+    <rect x="716" y="500" width="84" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="758" y="524" text-anchor="middle">Jira</text>
+    <rect x="812" y="500" width="100" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="862" y="524" text-anchor="middle">MySQL</text>
+    <rect x="924" y="500" width="140" height="36" rx="18" fill="#111827" stroke="#334155"/>
+    <text x="994" y="524" text-anchor="middle">Git</text>
+  </g>
+  <text x="36" y="582" fill="#64748b" font-family="Consolas, monospace" font-size="14" letter-spacing="3">INTERESTS</text>
+  <circle cx="168" cy="577" r="5" fill="#f7931a"/>
+  <text x="182" y="583" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Bitcoin</text>
+  <circle cx="280" cy="577" r="5" fill="#627eea"/>
+  <text x="294" y="583" fill="#f8fafc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Ethereum</text>
+</svg>
