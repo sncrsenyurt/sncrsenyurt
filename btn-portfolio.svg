@@ -3,5 +3,5 @@
   <g fill="#E4572E" transform="translate(14,10)">
     <circle cx="8" cy="8" r="6.5" fill="none" stroke="#E4572E" stroke-width="1.5"/><path d="M1.5 8h13M8 1.5c2.2 2.4 2.2 9.6 0 13M8 1.5c-2.2 2.4-2.2 9.6 0 13" fill="none" stroke="#E4572E" stroke-width="1.5"/>
   </g>
-  <text x="40" y="23" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="1.2" fill="#E6EDF3">PORTFOLIO</text>
+  <text x="40" y="23" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="600" letter-spacing="1.2" fill="#E4572E">PORTFOLIO</text>
 </svg>
